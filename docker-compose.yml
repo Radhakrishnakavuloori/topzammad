@@ -125,8 +125,6 @@ services:
 volumes:
   elasticsearch-data:
     driver: local
-  postgresql-data:
-    driver: local
   redis-data:
     driver: local
   zammad-backup:
